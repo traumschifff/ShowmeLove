@@ -24,3 +24,9 @@ a {
     color: blue; /* Link color */
     text-decoration: underline; /* Underline link text */
 }
+
+img {
+    max-width: 100%; /* Set the image to a maximum width of 100% of its container */
+    display: block; /* Centers the image horizontally within its container */
+    margin: 0 auto; /* Centers the image horizontally within its container */
+}

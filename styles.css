@@ -42,7 +42,6 @@ img {
 
 header {
     display: block;
-    position: fixed;
     padding-left: 5px;
     top: 0;
     width: 100%;
@@ -54,7 +53,6 @@ header {
 
   footer {
     display: block;
-    position: fixed;
     bottom: 0;
     width: 100%;
     z-index: 1000; 

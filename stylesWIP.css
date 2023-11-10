@@ -1,25 +1,30 @@
 /* styles.css */
 
-body {
-    background-image: url("background.gif");
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+* {
     margin: 0;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 32px 32px;
+    text-rendering: optimizeLegibility;
+    background-image: url("background.gif");
+    background-attachment: fixed;
+    background-size: 3840px;
 }
 
 h1 {
     color: #F5F5F5;
     text-shadow: 0px 4px 4px #3D5588;
     font-family: Rubik Puddles;
-    font-size: 48px;
+    font-size: 200px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin-bottom: 50px;
+
 }
 
 p {
@@ -29,7 +34,10 @@ p {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;}
+    line-height: normal;
+    margin-bottom: 50px;
+}
+    
 
 a {
     color: #FF8E91;
@@ -39,4 +47,35 @@ font-style: italic;
 font-weight: 600;
 line-height: normal;
 text-decoration-line: underline;
+}
+
+ul {
+    color: #F5f5f5;
+font-family: Roboto;
+font-size: 16px;
+font-style: italic;
+font-weight: 600;
+line-height: normal;
+text-decoration-line: underline;
+}
+
+header {
+    margin-bottom: 50px;
+    max-width: 725px;    
+}
+
+footer {
+    text-align: left;
+}
+
+.left-footer {
+}
+
+.right-footer {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    position: relative;
+    text-align: right;
+    bottom: 95px;
 }

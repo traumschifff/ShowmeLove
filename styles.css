@@ -24,6 +24,12 @@ p {
     color: black;
 }
 
+.footnote {
+    text-align: left;
+    font-size: 9pt;
+    
+}
+
 a {
     color: blue; /* Link color */
     text-decoration: underline; /* Underline link text */

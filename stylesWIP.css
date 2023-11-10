@@ -1,26 +1,42 @@
 /* styles.css */
 
 body {
+    background-image: url("background.gif");
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: white;
     padding-left: 100px;
     padding-right: 100px;
 }
 
 h1 {
-    color: black;
+    color: #F5F5F5;
+    text-shadow: 0px 4px 4px #3D5588;
+    font-family: Rubik Puddles;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 p {
-    color: black;
-}
+    color: #F5F5F5;
+    text-shadow: 0px 4px 4px #3D5588;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;}
 
 a {
-    color: blue; /* Link color */
-    text-decoration: underline; /* Underline link text */
+    color: #FF8E91;
+font-family: Roboto;
+font-size: 16px;
+font-style: italic;
+font-weight: 600;
+line-height: normal;
+text-decoration-line: underline;
 }

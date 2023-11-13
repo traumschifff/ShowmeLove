@@ -1,5 +1,10 @@
 /* styles.css */
 
+@font-face {
+    font-family: Garamondt;
+    src: url(Garamondt-Regular.woff);
+  }
+  
 * {
     margin: 0;
     padding: 0;
@@ -10,14 +15,14 @@
 body {
     margin: 32px 32px;
     text-rendering: optimizeLegibility;
-    background-image: url("background.gif");
+    background-image: url("Background-3.gif");
     background-attachment: fixed;
-    background-size: 3840px;
+    background-size: 10000px;
 }
 
 h1 {
-    color: #F5F5F5;
-    text-shadow: 0px 4px 4px #3D5588;
+    color: #435060;
+    text-shadow: 3px 3px 0px #f5f5f5, -3px -3px 0px #f5f5f5;
     font-family: Rubik Puddles;
     font-size: 200px;
     font-style: normal;
@@ -28,8 +33,9 @@ h1 {
 }
 
 p {
-    color: #F5F5F5;
-    text-shadow: 0px 4px 4px #3D5588;
+    text-indent: 50px;
+    color: #435060;
+    text-shadow: -3px -3px 4px #F5F5F5, 1px 1px 4px #F5F5F5;
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
@@ -37,16 +43,20 @@ p {
     line-height: normal;
     margin-bottom: 50px;
 }
-    
+p::first-letter {
+    font-size: 400%;
+    font-family: Garamondt;
+  }
 
 a {
     color: #FF8E91;
-font-family: Roboto;
-font-size: 16px;
-font-style: italic;
-font-weight: 600;
-line-height: normal;
-text-decoration-line: underline;
+    text-shadow: 3px 3px 4px #435060, -1px -1px 4px #435060;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration-line: underline;
 }
 
 ul {
@@ -65,17 +75,6 @@ header {
 }
 
 footer {
-    text-align: left;
-}
-
-.left-footer {
-}
-
-.right-footer {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    position: relative;
-    text-align: right;
-    bottom: 95px;
+    display: grid;
+  grid-template-columns: auto auto;
 }

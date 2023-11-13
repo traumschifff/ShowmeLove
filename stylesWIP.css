@@ -75,7 +75,8 @@ p::first-letter {
   }
 
 img{
-    max-width: 425px;
+    max-width: 100%;
+    height: auto;
 }
 
 a {

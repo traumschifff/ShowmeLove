@@ -12,6 +12,7 @@
 html{
     background-image: url("Background-3.gif");
     background-repeat: no-repeat;
+    background-position: right top;
     background-attachment: fixed;
     background-size: 5000px;
 }

@@ -3,7 +3,12 @@
 @font-face {
     font-family: Garamondt;
     src: url(Garamondt-Regular.woff);
-  }
+}
+
+@font-face {
+    font-family: ArialNarrow;
+    src: url(Arial\ Narrow.woff);
+}
   
 * {
     margin: 0;
@@ -47,6 +52,10 @@ p::first-letter {
     font-size: 400%;
     font-family: Garamondt;
   }
+
+.footnote{
+    font-family: ArialNarrow;
+}
 
 a {
     color: #FF8E91;

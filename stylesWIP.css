@@ -56,6 +56,23 @@ p::first-letter {
 .footnote{
     font-family: ArialNarrow;
 }
+.footnote::first-letter {
+    font-size: 100%;
+    font-family: ArialNarrow;
+  }
+
+.quote{
+    padding-left: 100px;
+    padding-right: 100px;
+    hanging-punctuation: first;
+    font-family: Literata;
+    text-indent: 0px;
+}
+
+.quote::first-letter {
+    font-size: 100%;
+    font-family: Literata;
+  }
 
 a {
     color: #FF8E91;

@@ -57,14 +57,44 @@ p {
 p::first-letter {
     font-size: 300%;
     font-family: Garamondt;
+}
+
+a {
+    color: #FF8E91;
+    text-shadow: 2px 2px 4px #435060, -1px -1px 4px #435060;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+a:visited {
+    color: #82D8D5;
   }
+
+a:hover {
+    color: #435060;
+    text-shadow: -2px -2px 4px #F5F5F5, 1px 1px 4px #F5F5F5;
+  }
+
+.asterisk{
+    color: #FF8E91;
+    text-shadow: 2px 2px 4px #435060, -1px -1px 4px #435060;
+    font-family: Garamondt;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration-line: none;
+}
 
 .footnote{
     font-family: Roboto Condensed;
 }
 .footnote::first-letter {
     font-size: 100%;
-    font-family: ArialNarrow;
   }
 
 .quote{
@@ -81,7 +111,8 @@ p::first-letter {
   }
 
 img{
-    width: 425px;
+    width: 100%;
+    max-width: 425px;
     height: auto;
 }
 
@@ -96,25 +127,19 @@ figcaption{
     margin-bottom: 48px;
 }
 
-a {
-    color: #FF8E91;
-    text-shadow: 2px 2px 4px #435060, -1px -1px 4px #435060;
+ul { color: #435060;
+    text-shadow: -2px -2px 4px #F5F5F5, 1px 1px 4px #F5F5F5;
     font-family: Roboto;
     font-size: 16px;
-    font-style: italic;
-    font-weight: 600;
+    font-style: normal;
+    font-weight: 400;
     line-height: normal;
-    text-decoration-line: underline;
+text-decoration-line: underline;
 }
 
-ul {
-    color: #F5f5f5;
-font-family: Roboto;
-font-size: 16px;
-font-style: italic;
-font-weight: 600;
-line-height: normal;
-text-decoration-line: underline;
+ul:hover {
+    color: #FF8E91;
+    text-shadow: 2px 2px 4px #435060, -1px -1px 4px #435060;
 }
 
 header {
@@ -141,12 +166,14 @@ footer {
 @media only screen and (min-width: 768px) {
     .grid-container{
         display: grid;
-  grid-template-columns: 500px auto;
+  grid-template-columns: 505px auto;
     }
+
     h1 {
         font-size: 144px;
     }
     p{
         margin-left: 16px;
+        margin-right: 16px;
     }
   }

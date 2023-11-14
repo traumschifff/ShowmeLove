@@ -54,6 +54,7 @@ p {
     margin-bottom: 48px;
     max-width: 425px;
 }
+
 p::first-letter {
     font-size: 300%;
     font-family: Garamondt;
@@ -72,14 +73,14 @@ a {
 
 a:visited {
     color: #82D8D5;
-  }
+}
 
 a:hover {
     color: #435060;
     text-shadow: -2px -2px 4px #F5F5F5, 1px 1px 4px #F5F5F5;
-  }
+}
 
-.asterisk{
+.asterisk {
     color: #FF8E91;
     text-shadow: 2px 2px 4px #435060, -1px -1px 4px #435060;
     font-family: Garamondt;
@@ -90,14 +91,15 @@ a:hover {
     text-decoration-line: none;
 }
 
-.footnote{
+.footnote {
     font-family: Roboto Condensed;
 }
+
 .footnote::first-letter {
     font-size: 100%;
-  }
+}
 
-.quote{
+.quote {
     padding-left: 32px;
     padding-right: 32px;
     hanging-punctuation: first;
@@ -108,15 +110,15 @@ a:hover {
 .quote::first-letter {
     font-size: 100%;
     font-family: Literata;
-  }
+}
 
-img{
+img {
     width: 100%;
     max-width: 425px;
     height: auto;
 }
 
-figcaption{
+figcaption {
     color: #435060;
     text-shadow: -2px -2px 4px #F5F5F5, 1px 1px 4px #F5F5F5;
     font-family: Roboto Condensed;
@@ -127,14 +129,15 @@ figcaption{
     margin-bottom: 48px;
 }
 
-ul { color: #435060;
+ul {
+    color: #435060;
     text-shadow: -2px -2px 4px #F5F5F5, 1px 1px 4px #F5F5F5;
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-text-decoration-line: underline;
+    text-decoration-line: underline;
 }
 
 ul:hover {
@@ -146,7 +149,7 @@ header {
     max-width: 425px;
 }
 
-.header{
+.header {
     margin-left: 0;
     text-indent: 0px;
 }
@@ -154,26 +157,27 @@ header {
 .header::first-letter {
     font-size: 100%;
     font-family: Roboto;
-  }
+}
 
 footer {
     max-width: 425px;
     display: grid;
-  grid-template-columns: auto auto;
-  margin-bottom: 48px;
+    grid-template-columns: auto auto;
+    margin-bottom: 48px;
 }
 
 @media only screen and (min-width: 768px) {
-    .grid-container{
+    .grid-container {
         display: grid;
-  grid-template-columns: 505px auto;
+        grid-template-columns: 505px auto;
     }
 
     h1 {
         font-size: 144px;
     }
-    p{
+
+    p {
         margin-left: 16px;
         margin-right: 16px;
     }
-  }
+}

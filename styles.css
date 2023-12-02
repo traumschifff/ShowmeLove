@@ -1,78 +1,195 @@
 /* styles.css */
 
+@font-face {
+    font-family: Garamondt;
+    src: url(Garamondt-Regular.woff);
+}
+
+#background_wrap {
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url("Background-3.gif");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    background-size: 5000px;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    box-sizing: border-box;
+}
+
 body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    background-color: white;
-    padding-top: 100px;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-bottom: 100px;
+    margin: 16px 16px;
+    text-rendering: optimizeLegibility;
 }
 
 h1 {
-    color: black;
-    text-align: center;
-    padding-top:40px;
-    font-family: 'Courier New', Courier, monospace;
+    color: #435060;
+    text-shadow: 1px 1px 0px #f5f5f5, -1px -1px 1px #f5f5f5;
+    font-family: Rubik Puddles;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 48px;
 }
 
 p {
-    color: black;
+    text-indent: 32px;
+    color: #435060;
+    text-shadow: -2px -2px 4px #F5F5F5, 1px 1px 4px #F5F5F5;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 48px;
+    max-width: 425px;
 }
 
-.footnote {
-    text-align: left;
-    font-size: 9pt;
-    
+p::first-letter {
+    font-size: 300%;
+    font-family: Garamondt;
+}
+
+.linktree{
+    padding-left: 32px;
+    padding-right: 32px;
+    text-indent: 0px;
+}
+
+.linktree::first-letter {
+    font-size: 100%;
+    font-family: Roboto;
 }
 
 a {
-    color: blue; /* Link color */
-    text-decoration: underline; /* Underline link text */
+    color: #FF8E91;
+    text-shadow: 2px 2px 4px #435060, -1px -1px 4px #435060;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration-line: underline;
 }
+
+a:visited {
+    color: #82D8D5;
+}
+
+a:hover {
+    color: #435060;
+    text-shadow: -2px -2px 4px #F5F5F5, 1px 1px 4px #F5F5F5;
+}
+
+.asterisk {
+    color: #FF8E91;
+    text-shadow: 2px 2px 4px #435060, -1px -1px 4px #435060;
+    font-family: Garamondt;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration-line: none;
+}
+
+.footnote {
+    font-family: Roboto Condensed;
+}
+
+.footnote::first-letter {
+    font-family: Roboto Condensed;
+    font-size: 100%;
+}
+
+.quote {
+    padding-left: 32px;
+    padding-right: 32px;
+    hanging-punctuation: first;
+    font-family: Literata;
+    text-indent: 0px;
+}
+
+.quote::first-letter {
+    font-size: 100%;
+    font-family: Literata;
+}
+
 img {
-    max-width: 100%; /* Set the image to a maximum width of 100% of its container */
-    display: block; /* Centers the image horizontally within its container */
-    margin: 0 auto; /* Centers the image horizontally within its container */
+    width: 100%;
+    max-width: 425px;
+    height: auto;
+}
+
+figcaption {
+    color: #435060;
+    text-shadow: -2px -2px 4px #F5F5F5, 1px 1px 4px #F5F5F5;
+    font-family: Roboto Condensed;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 48px;
+}
+
+ul {
+    color: #435060;
+    text-shadow: -2px -2px 4px #F5F5F5, 1px 1px 4px #F5F5F5;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+ul:hover {
+    color: #FF8E91;
+    text-shadow: 2px 2px 4px #435060, -1px -1px 4px #435060;
 }
 
 header {
-    display: block;
-    padding-left: 5px;
-    top: 0;
-    width: 100%;
-    z-index: 1000; /* Use a high z-index to ensure it's above other elements */
-    background-color: #ffffff; /* You can customize the background color */
-    /* Add any additional styles you want for the fixed header */
-    
-  }
-
-  footer {
-    display: block;
-    bottom: 0;
-    width: 100%;
-    z-index: 1000; 
-    text-align: right;
-    padding: 3px;
-    background-color: none;
-    color: white;
-  }
-
-  .left-footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    padding-left: 5px;
+    max-width: 425px;
 }
 
-.right-footer {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    padding-right: 5px;
+.header {
+    margin-left: 0;
+    text-indent: 0px;
+}
+
+.header::first-letter {
+    font-size: 100%;
+    font-family: Roboto;
+}
+
+footer {
+    max-width: 425px;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-bottom: 48px;
+}
+
+@media only screen and (min-width: 768px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: 505px auto;
+    }
+
+    h1 {
+        font-size: 144px;
+    }
+
+    p {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
 }

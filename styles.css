@@ -102,12 +102,20 @@ a:hover {
     text-decoration-line: none;
 }
 
+.info {
+    font-family: Roboto Condensed;
+}
+
+.info::first-letter {
+    font-size: 100%;
+    font-family: Roboto Condensed;
+}
+
 .footnote {
     font-family: Roboto Condensed;
 }
 
 .footnote::first-letter {
-    font-family: Roboto Condensed;
     font-size: 100%;
 }
 

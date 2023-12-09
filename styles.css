@@ -149,14 +149,9 @@ figcaption {
     margin-bottom: 48px;
 }
 
-ul {
+.ul {
     color: #435060;
     text-shadow: -2px -2px 4px #F5F5F5, 1px 1px 4px #F5F5F5;
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
     text-decoration-line: underline;
 }
 

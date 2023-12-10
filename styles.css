@@ -149,17 +149,6 @@ figcaption {
     margin-bottom: 48px;
 }
 
-.ul {
-    color: #435060;
-    text-shadow: -2px -2px 4px #F5F5F5, 1px 1px 4px #F5F5F5;
-    text-decoration-line: underline;
-}
-
-ul:hover {
-    color: #FF8E91;
-    text-shadow: 2px 2px 4px #435060, -1px -1px 4px #435060;
-}
-
 header {
     max-width: 425px;
 }

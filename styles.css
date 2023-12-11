@@ -204,4 +204,9 @@ footer {
         margin-left: 16px;
         margin-right: 16px;
     }
+
+    .big {
+        max-width: 90%;
+        height: auto;
+    }
 }

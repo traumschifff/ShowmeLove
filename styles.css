@@ -1,0 +1,188 @@
+/* styles.css */
+
+@font-face {
+    font-family: Garamondt;
+    src: url(Garamondt-Regular.woff);
+}
+
+#background_wrap {
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url("Background-3.gif");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    background-size: 5000px;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 16px 16px;
+    text-rendering: optimizeLegibility;
+}
+
+h1 {
+    color: #435060;
+    text-shadow: 1px 1px 0px #f5f5f5, -1px -1px 1px #f5f5f5;
+    font-family: Rubik Puddles;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 48px;
+}
+
+p {
+    text-indent: 32px;
+    color: #435060;
+    text-shadow: -2px -2px 4px #F5F5F5, 1px 1px 4px #F5F5F5;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 48px;
+    max-width: 425px;
+}
+
+p::first-letter {
+    font-size: 300%;
+    line-height: 20px;
+    font-family: Garamondt;
+}
+
+.linktree{
+    padding-left: 32px;
+    padding-right: 32px;
+    text-indent: 0px;
+}
+
+.linktree::first-letter {
+    font-size: 100%;
+    font-family: Roboto;
+}
+
+a {
+    color: #FF8E91;
+    text-shadow: 2px 2px 4px #435060, -1px -1px 4px #435060;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+a:visited {
+    color: #82D8D5;
+}
+
+a:hover {
+    color: #435060;
+    text-shadow: -2px -2px 4px #F5F5F5, 1px 1px 4px #F5F5F5;
+}
+
+.asterisk {
+    color: #FF8E91;
+    text-shadow: 2px 2px 4px #435060, -1px -1px 4px #435060;
+    font-family: Garamondt;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    text-decoration-line: none;
+}
+
+.info {
+    font-family: Roboto Condensed;
+}
+
+.info::first-letter {
+    font-size: 100%;
+    font-family: Roboto Condensed;
+}
+
+.footnote {
+    font-family: Roboto Condensed;
+}
+
+.footnote::first-letter {
+    font-size: 100%;
+}
+
+.quote {
+    padding-left: 32px;
+    padding-right: 32px;
+    hanging-punctuation: first;
+    font-family: Literata;
+    text-indent: 0px;
+}
+
+.quote::first-letter {
+    font-size: 100%;
+    font-family: Literata;
+}
+
+img {
+    width: 100%;
+    max-width: 425px;
+    height: auto;
+}
+
+figcaption {
+    color: #435060;
+    text-shadow: -2px -2px 4px #F5F5F5, 1px 1px 4px #F5F5F5;
+    font-family: Roboto Condensed;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 48px;
+}
+
+header {
+    max-width: 425px;
+}
+
+.header {
+    margin-left: 0;
+    text-indent: 0px;
+}
+
+.header::first-letter {
+    font-size: 100%;
+    font-family: Roboto;
+}
+
+footer {
+    font-family: Roboto;
+    max-width: 425px;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-bottom: 48px;
+}
+
+@media only screen and (min-width: 768px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: 505px auto;
+    }
+
+    h1 {
+        font-size: 144px;
+    }
+
+    p {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+}

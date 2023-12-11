@@ -27,6 +27,7 @@
 }
 
 body {
+    overflow-x: hidden;
     margin: 16px 16px;
     text-rendering: optimizeLegibility;
 }

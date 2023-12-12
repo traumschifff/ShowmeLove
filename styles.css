@@ -39,7 +39,7 @@ body {
 
 h1 {
     color: #435060;
-    text-shadow: 1px 1px 4px #f5f5f5, -1px -1px 4px #f5f5f5;
+    text-shadow: -1px -1px 2px #F5F5F5, 1px 1px 2px #F5F5F5, 1px -1px 4px #F5F5F5, -1px 1px 4px #F5F5F5;
     font-family: Picnic;
     font-size: 60px;
     font-style: normal;
@@ -52,7 +52,7 @@ h1 {
 p {
     text-indent: 32px;
     color: #435060;
-    text-shadow: -1px -1px 2px #F5F5F5, 1px 1px 2px #F5F5F5, 2px -2px 4px #F5F5F5, -2px 2px 4px #F5F5F5;
+    text-shadow: -1px -1px 2px #F5F5F5, 1px 1px 2px #F5F5F5, 1px -1px 4px #F5F5F5, -1px 1px 4px #F5F5F5;
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
@@ -95,7 +95,7 @@ a:visited {
 
 a:hover {
     color: #435060;
-    text-shadow: -1px -1px 2px #F5F5F5, 1px 1px 2px #F5F5F5, 2px -2px 4px #F5F5F5, -2px 2px 4px #F5F5F5;
+    text-shadow: -1px -1px 2px #F5F5F5, 1px 1px 2px #F5F5F5, 1px -1px 4px #F5F5F5, -1px 1px 4px #F5F5F5;
 }
 
 .asterisk {
@@ -156,7 +156,7 @@ img {
 
 figcaption {
     color: #435060;
-    text-shadow: -1px -1px 2px #F5F5F5, 1px 1px 2px #F5F5F5, 2px -2px 4px #F5F5F5, -2px 2px 4px #F5F5F5;
+    text-shadow: -1px -1px 2px #F5F5F5, 1px 1px 2px #F5F5F5, 1px -1px 4px #F5F5F5, -1px 1px 4px #F5F5F5;
     font-family: Roboto Condensed;
     font-size: 16px;
     font-style: normal;

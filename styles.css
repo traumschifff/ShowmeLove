@@ -47,6 +47,7 @@ h1 {
     line-height: normal;
     margin-bottom: 48px;
     hyphens: auto;
+    max-width: 425px;
 }
 
 p {
@@ -80,8 +81,8 @@ p::first-letter {
 }
 
 a {
-    color: #FF8E91;
-    text-shadow: -1px -1px 2px #435060, 1px 1px 2px #435060, 1px -1px 4px #435060, -1px 1px 4px #435060;
+    color: #435060;
+    text-shadow: -1px -1px 2px #FF8E91, 1px 1px 2px #FF8E91, 1px -1px 8px #F5F5F5, -1px 1px 8px #F5F5F5;
     font-size: 16px;
     font-style: italic;
     font-weight: 400;
@@ -89,17 +90,13 @@ a {
     text-decoration-line: underline;
 }
 
-a:visited {
-    color: #82D8D5;
-}
-
 a:hover {
-    color: #435060;
+    color: #FF8E91;
     text-shadow: -1px -1px 2px #F5F5F5, 1px 1px 2px #F5F5F5, 1px -1px 4px #F5F5F5, -1px 1px 4px #F5F5F5;
 }
 
 .asterisk {
-    color: #FF8E91;
+    color: #435060;
     font-family: Picnic;
     font-size: 24px;
     font-style: normal;
@@ -109,7 +106,7 @@ a:hover {
 }
 
 .asterisk::first-letter {
-    color: #FF8E91;
+    color: #435060;
     font-family: Picnic;
     font-size: 24px;
     font-style: normal;
@@ -196,6 +193,7 @@ footer {
 
     h1 {
         font-size: 144px;
+        max-width: 100%;
     }
 
     p {
